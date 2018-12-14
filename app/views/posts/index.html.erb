@@ -1,0 +1,19 @@
+<h1><%= t('.title') %></h1>
+
+      
+ <%= form_tag new_search_path, :method => 'get' do %>
+     <%= text_field_tag :search, params[:search] %>
+     <%= submit_tag "Поиск" %>
+     <% end %>
+     
+ 
+<section id='posts'>
+
+	<%= render @posts %>
+	
+  
+</section>
+
+ 
+
+<%= will_paginate @posts, renderer: 'BootstrapPaginationHelper::LinkRenderer' %>

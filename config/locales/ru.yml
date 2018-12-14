@@ -1,0 +1,18 @@
+ru:
+  common: 
+    errors: 'При заполнении формы возникли ошибки'
+    back: 'Назад'
+  will_paginate:
+    previous_label: '&larr; Предудыщая'
+    next_label: 'Следующая &rarr;'
+
+  posts: 
+    index:
+      title: 'Объявления'
+    new:
+     title: 'Новое объявление'
+    edit:
+      title: 'Редактирование объявления'
+    form:
+     submit:
+      '%{action} объявление'
